@@ -24,7 +24,16 @@ public class HomeworkVic {
     WebElement root = wd.findElement(By.id("root"));
     WebElement root2 = wd.findElement(By.cssSelector("#root"));
 
- 
+    WebElement divEl = wd.findElement(By.cssSelector("[class ='container']"));
+    //WebElement inputEmail = wd.findElement(By.cssSelector("[placeholder='Email']"));
+
+    WebElement a2 = wd.findElement(By.cssSelector("[href ='/login']"));
+
+    //WebElement input = wd.findElement(By.cssSelector("[placeholder='Email']"));
+
+
+
+
 
 
 }
