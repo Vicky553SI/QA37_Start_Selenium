@@ -18,7 +18,7 @@ public class Index {
     @Test
     public void cssLocators(){
         // by tag name
-        WebElement el =wd.findElement(By.tagName("button"));
+        WebElement el = wd.findElement(By.tagName("button"));
         WebElement element = wd.findElement(By.cssSelector("button"));
 
         WebElement el1= wd.findElement(By.tagName("a"));
@@ -26,7 +26,7 @@ public class Index {
         List<WebElement> list = wd.findElements(By.tagName("a"));
         List<WebElement> list1 = wd.findElements(By.tagName("a"));
         int i= list.size();
-        WebElement el14= list.get(2);
+        WebElement el4= list.get(2);
 
         // by class
         WebElement divecontainer = wd.findElement(By.className("container"));
@@ -44,8 +44,8 @@ public class Index {
         WebElement inputEmail = wd.findElement(By.cssSelector("[placeholder='Type your name']"));
         WebElement a2 = wd.findElement(By.cssSelector("[href ='#item1']"));
         // by name
-        WebElement inputS =wd.findElement(By.cssSelector("[name='surename']"));
-        WebElement inputS1 = wd.findElement(By.name("surname"));
+        //WebElement inputS =wd.findElement(By.cssSelector("[name='surename']"));
+        //WebElement inputS1 = wd.findElement(By.name("surname"));
 
         // by.LinkText
         wd.findElement(By.linkText("Item 1"));
